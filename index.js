@@ -5,8 +5,8 @@ const output = document.querySelector('.output');
 const alertCrossIcon = document.getElementById('crossIcon');
 const alertBox = document.getElementById('alertBox')
 
-const outputPass = `<div class="label">Hurray!!You are a lucky person!</div><img width="100%" height="200px" src = "./images/undraw_Party_re_nmwj.svg" alt="image" ">`
-const outputFail = `<div class="label">Oops!!Your birthday is not a lucky number!</div><img width="100%" height="200px" src = "./images/undraw_walk_dreaming_u58a.svg" alt="image" ">`
+const outputPass = `<div class="label">Hurray!!You are a lucky person!</div><img width="100%" height="200px" src = "images/undraw_Party_re_nmwj.svg" alt="image" ">`
+const outputFail = `<div class="label">Oops!!Your birthday is not a lucky number!</div><img width="100%" height="200px" src = "images/undraw_walk_dreaming_u58a.svg" alt="image" ">`
 
 alertCrossIcon.addEventListener('click', () => {
     alertBox.style.display = "none";

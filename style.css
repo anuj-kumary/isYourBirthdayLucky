@@ -93,6 +93,7 @@ button {
   font-size: 1rem;
   font-weight: 600;
   background-color: #fff;
+  cursor: pointer;
 }
 .label{
     margin-top: 1rem;
