@@ -5,6 +5,10 @@
   padding: 0%;
   box-sizing: border-box;
 }
+:root{
+    --bg-color : rgba(219, 234, 254, 0.8);
+    --box-shadow : 0px 0px 5px 0px rgba(50, 50, 50, 0.32);
+}
 html {
   scroll-behavior: smooth;
 }
@@ -26,10 +30,10 @@ body {
   background-attachment: fixed;
 }
 .title {
-  background-color: rgba(219, 234, 254, 0.8);
+  background-color: var(--bg-color);
   padding: 1.5rem 1rem;
   margin-top: 2rem;
-  box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.32);
+  box-shadow: var(--box-shadow)
 }
 h2 {
   margin: 0 auto;
@@ -42,13 +46,13 @@ h2 {
   max-width: 600px;
   min-height: 50px;
   margin: 0rem 0 2rem;
-  background-color: rgba(219, 234, 254, 0.8);
+  background-color: var(--bg-color);
   text-align: center;
   display: grid;
   place-items: center;
   margin-top: 5rem;
   padding: 1.5rem 0;
-  box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.32);
+  box-shadow:  var(--box-shadow);
 }
 
 #alertBox {
