@@ -20,13 +20,6 @@ const compareValue = ( sum , luckyNumber ) => {
     }
 }
 
-// function compareValue(sum, luckyNumber) {
-//     if (sum % luckyNumber === 0) {
-//         output.innerHTML = outputPass
-//     } else {
-//         output.innerHTML = outputFail
-//     }
-// }
 
 const checkBirthday = () => {
     const dob = dateOfBirth.value;
@@ -34,11 +27,6 @@ const checkBirthday = () => {
     compareValue(sum, luckyNumber.value)
 }
 
-// function checkBirthday() {
-//     const dob = dateOfBirth.value;
-//     const sum = calculateDob(dob)
-//     compareValue(sum, luckyNumber.value)
-// }
 
 const calculateDob = (dob) => {
     dob = dob.replaceAll("-", "");
@@ -49,14 +37,6 @@ const calculateDob = (dob) => {
     return sum;
 }
 
-// function calculateDob(dob) {
-//     dob = dob.replaceAll("-", "");
-//     let sum = 0;
-//     for (let index = 0; index < dob.length; index++) {
-//         sum = sum + Number(dob.charAt(index))
-//     }
-//     return sum;
-// }
 
 checkBirthdayIsLucky.addEventListener('click', (e) => {
     e.preventDefault();
